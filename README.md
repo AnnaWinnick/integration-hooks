@@ -45,8 +45,8 @@ Deprecated - please use Weglot in Squarespace admin, [see documentation here](ht
 ### Webflow (to be set in webflow/config.js)
 
 - `apiKey`: Weglot API Key from your [Weglot dashboard](https://dashboard.weglot.com/settings/setup)
-- `wflogin`/`wfdesignersession`: In your Webflow editor (url will look something like https://<my-project-name>.design.webflow.com) open Chrome
-  devtools (right click "inspect") > Application tab > Cookies > <my-project-name>.design.webflow.com,
+- `wflogin`/`wfdesignersession`: In your Webflow editor (url will look something like https://my-project-name.design.webflow.com) open Chrome
+  devtools (right click "inspect") > Application tab > Cookies > my-project-name.design.webflow.com,
   get content from wflogin (eg. 10101894633456) and wfdesignersession
   (long random strings) cookies
 - `projectId`: Subdomain from Webflow admin. Go to Webflow editor page > Design mode. Get the first subdomain from the url. In this example, the projectId would be my-project-name.
@@ -55,7 +55,7 @@ Deprecated - please use Weglot in Squarespace admin, [see documentation here](ht
 
 When you are ready, run `yarn webflow`
 
-**This script edit your website but it doesn't publish it**
+**This script edits your website but doesn't publish it**
 
 ## Troubleshooting
 
